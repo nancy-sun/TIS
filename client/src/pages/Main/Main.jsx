@@ -1,6 +1,7 @@
 import React from "react";
 import Cards from "../../components/Cards/Cards";
 import axios from "axios";
+import Hero from "../../components/Hero/Hero"
 import "./Main.scss";
 
 
@@ -21,10 +22,16 @@ export default class Main extends React.Component {
         this.getDestinations("EmotionalQueen");
     }
 
+    handleSelector = (event) => {
+        event.preventDefault();
+        this.getDestinations(event.target.options.value)
+}
+
     render() {
         return (
             <main className="main">
-                <Cards destinations={this.state.destinations} />
+                <Hero handleSelector={this.handleSelector}/>
+                <Cards destinations={this.state.destinations} /> 
             </main>
         )
     }
