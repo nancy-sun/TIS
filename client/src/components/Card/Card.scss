@@ -5,8 +5,7 @@
 }
 
 .card {
-    background-color: #FEFAF5; //testing
-    height: 400px;
+    background-color: #FEFAF5;
     width: 240px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -15,16 +14,13 @@
     flex-direction: column;
     padding: 0.75rem;
 
-    &:hover {
-        opacity: 0.9;
-    }
-
     &__img {
         width: 100%;
-        height: 160px;
+        min-height: 10rem;
         background-position: center;
         background-size: cover;
         margin-bottom: 0.75rem;
+        border-radius: 5px;
     }
 
     &__info {
@@ -43,22 +39,31 @@
     &__price {
         text-align: center;
         font-size: 0.7rem;
+        color: rgb(206, 127, 87);
     }
 
     &__description {
         text-align: center;
         font-size: 0.9rem;
+        margin-bottom: 1rem;
     }
 
     &__link {
         text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
         text-decoration: none;
         cursor: pointer;
         font-size: 0.8rem;
         margin-top: auto;
+        margin-bottom: 1rem;
+        padding: 0.6rem 0;
+        border-radius: 5px;
+        background-color: rgb(189, 220, 221);
 
         &:hover {
-            color: blue;
+            background-color: rgb(206, 127, 87);
+            color: white;
         }
     }
 }

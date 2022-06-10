@@ -25,13 +25,17 @@ export default class Main extends React.Component {
     handleSelector = (event) => {
         event.preventDefault();
         this.getDestinations(event.target.options.value)
-}
+    }
 
     render() {
         return (
             <main className="main">
-                <Hero handleSelector={this.handleSelector}/>
-                <Cards destinations={this.state.destinations} /> 
+                <div className="main__background"></div>
+                <Hero handleSelector={this.handleSelector} />
+                <Cards destinations={this.state.destinations} />
+                <footer className="main__footer">
+                    tis ©
+                </footer>
             </main>
         )
     }
