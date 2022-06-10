@@ -1,9 +1,12 @@
+import Card from "../Card/Card"
 import "./Cards.scss";
 
-export default function Cards() {
+export default function Cards({ destinations }) {
     return (
-        <div className="card-container">
-
-        </div>
+        <ul className="cards">
+            {destinations.map((destination) => {
+                return <Card {...destination} />
+            })}
+        </ul>
     )
 }

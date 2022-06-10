@@ -4,7 +4,7 @@ import axios from "axios";
 import "./Main.scss";
 
 
-export default class Main {
+export default class Main extends React.Component {
     state = {
         destinations: []
     }
