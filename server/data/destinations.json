@@ -1,0 +1,74 @@
+[
+    {
+        "category":"Emotional Queen",
+        "destination": "Palawan, Philippines",
+        "description": "Crystal blue waters, fantastic diving spots, and admired by both local and international tourists for its breathtaking and pristine beauty",
+        "price": "8,200 CAD",
+        "image":"http://localhost:8080/images/image0.jpeg",
+        "url": "https://www.expedia.ca/Palawan.d601955.Destination-Travel-Guides"
+    },
+    {
+        "category":"Emotional Queen",
+        "destination": "Santorini, Greece",
+        "description": "The amazing Caldera formed by the volcanic eruption centuries ago, resulted in the most amazing sea views a human eye can ever see.",
+        "price": "5,200 CAD",
+        "image":"http://localhost:8080/images/image0.jpeg",
+        "url": "https://www.expedia.ca/Santorini.d177970.Destination-Travel-Guides"
+    },
+    {
+        "category":"Emotional Queen",
+        "destination": "Corsica, France",
+        "description": "Beautiful sandy beaches, with crystal clear, turquoise blue waters",
+        "price": "10,200 CAD",
+        "url": "https://www.expedia.ca/Destinations-In-Corsica.d6049372.Hotel-Destinations",
+        "image": "http://localhost:8080/images/image0.jpeg" 
+    },
+    {
+        "category":"Bad Boy",
+        "destination": "Miami, Florida",
+        "description": "Pristine beaches, non-stop nightlife, and fantastic warm weather.",
+        "price": "4,200 CAD",
+        "url": "http://localhost:8080/images/image0.jpeg",
+        "image": "On a gusty day in Southern Utah, a group of 25 daring mountain bikers blew the doors off what is possible on two wheels, unleashing some of the biggest moments the sport has ever seen. While mother nature only allowed for one full run before the conditions made it impossible to ride, that was all that was needed for event veteran Kyle Strait, who won the event for the second time -- eight years after his first Red Cow Rampage title" 
+    },
+    {
+        "category":"Bad Boy",
+        "destination": "Syndey, Australia",
+        "description": "Good music and amazing cocktails",
+        "price": "13,200 CAD",
+        "url": "https://www.expedia.com/Sydney.d178312.Destination-Travel-Guides",
+        "image": "http://localhost:8080/images/image0.jpeg" 
+    },
+    {
+        "category":"Bad Boy",
+        "destination": "Koh Phangan, Thailand",
+        "description": "Koh Phangan's main claim to fame is its legendary Full Moon Party, Black Moon Party with the Full Moon celebrations attracting between 10,000 and 30,000 revelers during New Year's Eve.",
+        "price": "15,200 CAD",
+        "url": "https://www.expedia.ca/Ko-Pha-Ngan.d6051159.Destination-Travel-Guides",
+        "image": "http://localhost:8080/images/image0.jpeg" 
+    },
+    {
+        "category":"Run Away",
+        "destination": "Quebec, Canada",
+        "description": "its culture; the province produces literature, music, films, TV shows, festivals, folklore, and more.",
+        "price": "2,200 CAD",
+        "url": "https://www.expedia.ca/Destinations-In-Quebec.d11183.Hotel-Destinations",
+        "image": "http://localhost:8080/images/image0.jpeg" 
+    },
+    {
+        "category":"Run Away",
+        "destination": "Rotorua, New Zealand",
+        "description": "its geothermal activity, and features geysers notably the Pohutu Geyser at Whakarewarewa and hot mud pools.",
+        "price": "12,200 CAD",
+        "url": "https://www.expedia.com/Rotorua.d6048125.Destination-Travel-Guides",
+        "image": "http://localhost:8080/images/image0.jpeg" 
+    },
+    {
+        "category":"Run Away",
+        "destination": "Kampong Glam, Singapour",
+        "description": "Along with stores and eateries, Kampong Glam is also a treasure trove of cultural attractions like Sultan Mosque, Singapore's biggest mosque; the Malay Heritage Centre; and the country's only Vintage Camera Museum",
+        "price": "7,200 CAD",
+        "url": "https://www.expedia.co.jp/en/Singapore-Kampong-Glam.dx6139949",
+        "image": "http://localhost:8080/images/image0.jpeg" 
+    }
+]     
