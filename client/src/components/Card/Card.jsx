@@ -1,14 +1,16 @@
+import { cloneElement } from "react";
 import "./Card.scss";
 
-export default function Card() {
+export default function Card({ description, destination, image, price, url }) {
+
     return (
         <div className="card">
-            <img className="card__img" src="" alt="destination image" />
+            <img className="card__img" src={image} alt="destination image" />
             <div className="card__info">
-                <h3 className="card__title">place</h3>
-                <p className="card__price">$ 1234</p>
-                <p className="card__description">description</p>
-                <a className="card__link" href="">get package</a>
+                <h3 className="card__title">{destination}</h3>
+                <p className="card__price">{price}</p>
+                <p className="card__description">{description}</p>
+                <a className="card__link" target="_blank" href={url}>get package</a>
             </div>
         </div>
     )
