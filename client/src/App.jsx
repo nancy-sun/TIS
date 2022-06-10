@@ -1,11 +1,17 @@
-
-import './App.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import './App.scss';
+import Main from "./pages/Main/Main"
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <BrowserRouter>
+      <>
+        <Switch>
+          <Route path="/" exact component={Main} />
+          <Route path="/:category" component={Main} />
+        </Switch>
+      </>
+    </BrowserRouter>
   );
 }
 
